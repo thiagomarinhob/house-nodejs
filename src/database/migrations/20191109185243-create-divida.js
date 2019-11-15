@@ -27,6 +27,10 @@ module.exports = {
         type: Sequelize.DOUBLE,
         allowNull: false
       },
+      data_pagamento: {
+        type: Sequelize.DATE,
+        allowNull: false
+      },
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,

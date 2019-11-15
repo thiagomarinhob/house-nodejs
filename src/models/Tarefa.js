@@ -11,7 +11,7 @@ class Tarefa extends Model{
     }
 
     static associate(models){
-        // chave que vai identificar // qual tabela vai relacionar// nome do campo na tabela
+        // chave que vai identificar //qual tabela vai relacionar //nome do campo na tabela
         this.belongsToMany(models.Usuario, {
             foreignKey: 'tarefa_id',
             through: 'usuario_tarefas', 
